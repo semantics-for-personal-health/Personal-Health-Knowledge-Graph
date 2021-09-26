@@ -1,0 +1,152 @@
+@prefix ns1: <http://semanticscience.org/resource/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:N95d535942ac3496ebcb4ba666e3deaad {
+    <http://idea.rpi.edu/heals/phkg/user> a prov:Person ;
+        ns1:SIO_000008 <http://idea.rpi.edu/heals/phkg/ConsistentCarbohydrateIntake/cci>,
+            <http://idea.rpi.edu/heals/phkg/HighCarbLowFat/cf>,
+            <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal/ng>,
+            <http://purl.allotrope.org/ontologies/result#AFR_0000634/tr1>,
+            <http://purl.obolibrary.org/obo/NBO_0000141/fp1>,
+            <http://purl.obolibrary.org/obo/NCIT_C25648tr>,
+            <http://purl.obolibrary.org/obo/NCIT_C25673/ds>,
+            <http://purl.obolibrary.org/obo/NCIT_C54156/tp>,
+            <http://purl.obolibrary.org/obo/PATO_0002360/t> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64962> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64963> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64964> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64965> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64966> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64967> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C80249> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C80248> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C80250> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C80248> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C80251> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C80248> .
+
+    <http://edamontology.org/data_1249/sl> a <http://edamontology.org/data_1249> ;
+        ns1:SIO_000300 "1"^^xsd:int .
+
+    <http://idea.rpi.edu/heals/phkg/HighCarb/hc> a <http://idea.rpi.edu/heals/phkg/HighCarb> ;
+        ns1:SIO_000001 <http://idea.rpi.edu/heals/phkg/LowFat/lf> ;
+        ns1:SIO_000300 true .
+
+    <http://idea.rpi.edu/heals/phkg/HighCarb/hc1> a <http://idea.rpi.edu/heals/phkg/HighCarb> ;
+        ns1:SIO_000300 true .
+
+    <http://idea.rpi.edu/heals/phkg/HighCarbLowFat/cf> a <http://idea.rpi.edu/heals/phkg/HighCarbLowFat> ;
+        ns1:SIO_000008 <http://semanticscience.org/resource/SIO_001367/fr4> .
+
+    <http://idea.rpi.edu/heals/phkg/LowFat/lf1> a <http://idea.rpi.edu/heals/phkg/LowFat> ;
+        ns1:SIO_000300 true .
+
+    <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal/ng> a <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal> ;
+        ns1:SIO_000001 <http://purl.obolibrary.org/obo/NCIT_C25648/ir> ;
+        ns1:SIO_000679 <http://purl.obolibrary.org/obo/NCIT_C86936/w> ;
+        ns1:SIO_000900 <http://semanticscience.org/resource/SIO_001367/fr5> .
+
+    <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal/ng1> a <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal> ;
+        ns1:SIO_000001 <http://purl.obolibrary.org/obo/NCIT_C25648/r> ;
+        ns1:SIO_000900 <http://semanticscience.org/resource/SIO_001367/cf> .
+
+    <http://purl.allotrope.org/ontologies/result#AFR_0000634/tr1> a <http://purl.allotrope.org/ontologies/result#AFR_0000634> ;
+        ns1:SIO_000557 <http://purl.obolibrary.org/obo/NCIT_C70744/sl1> ;
+        ns1:SIO_000628 <http://idea.rpi.edu/heals/phkg/ConsistentCarbohydrateIntake/cci> .
+
+    <http://purl.obolibrary.org/obo/NBO_0000141/fp1> a <http://purl.obolibrary.org/obo/NBO_0000141> ;
+        ns1:SIO_000008 <http://purl.obolibrary.org/obo/NCIT_C62695/f1>,
+            <http://semanticscience.org/resource/SIO_001367/fr2> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C25648/ir> a <http://purl.obolibrary.org/obo/NCIT_C25648> ;
+        ns1:SIO_000008 <http://semanticscience.org/resource/SIO_001367/fr6> ;
+        ns1:SIO_000132 <http://idea.rpi.edu/heals/phkg/HighCarb/hc>,
+            <http://idea.rpi.edu/heals/phkg/LowFat/lf> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C25648/r> a <http://purl.obolibrary.org/obo/NCIT_C25648> ;
+        ns1:SIO_000132 <http://idea.rpi.edu/heals/phkg/HighCarb/hc1>,
+            <http://idea.rpi.edu/heals/phkg/LowFat/lf1> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C25648ir> a <http://purl.obolibrary.org/obo/NCIT_C25648> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C25648tr> a <http://purl.obolibrary.org/obo/NCIT_C25648> ;
+        ns1:SIO_000008 <http://semanticscience.org/resource/SIO_000130/dp1>,
+            <http://semanticscience.org/resource/SIO_000130/dp2> ;
+        ns1:SIO_000563 <http://purl.obolibrary.org/obo/NCIT_C25648ir> ;
+        ns1:SIO_000900 <http://semanticscience.org/resource/SIO_001367/s1> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C25673/ds> a <http://purl.obolibrary.org/obo/NCIT_C25673> ;
+        ns1:SIO_000008 <http://edamontology.org/data_1249/sl>,
+            <http://semanticscience.org/resource/SIO_001367/s2> ;
+        ns1:SIO_000563 <http://purl.obolibrary.org/obo/NCIT_C62695/f4> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C54156/tp> a <http://purl.obolibrary.org/obo/NCIT_C54156> ;
+        ns1:SIO_000001 <http://idea.rpi.edu/heals/phkg/NutrientIntakeGoal/ng1>,
+            <http://semanticscience.org/resource/SIO_001354/nw> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C62695/f1> a <http://purl.obolibrary.org/obo/NCIT_C62695> ;
+        rdfs:label "12 teaspoon salt"^^xsd:string .
+
+    <http://purl.obolibrary.org/obo/NCIT_C62695/f4> a <http://purl.obolibrary.org/obo/NCIT_C62695> ;
+        rdfs:label "Almost Companion Bread's Baked Eggs" .
+
+    <http://purl.obolibrary.org/obo/NCIT_C64968> rdfs:subClassOf <http://purl.obolibrary.org/obo/NCIT_C86936> .
+
+    <http://purl.obolibrary.org/obo/NCIT_C70744/sl1> a <http://purl.obolibrary.org/obo/NCIT_C70744> ;
+        ns1:SIO_000300 "0.0"^^xsd:float .
+
+    <http://purl.obolibrary.org/obo/NCIT_C86936/w> a <http://purl.obolibrary.org/obo/NCIT_C64968> .
+
+    <http://purl.obolibrary.org/obo/PATO_0002360/t> a <http://purl.obolibrary.org/obo/PATO_0002360> ;
+        ns1:SIO_000008 <http://idea.rpi.edu/heals/phkg/SelectingNewRecipes/snr>,
+            <http://semanticscience.org/resource/SIO_001367/fr1> .
+
+    <http://purl.obolibrary.org/obo/STATO_0000236/cv> a <http://purl.obolibrary.org/obo/STATO_0000236> ;
+        ns1:SIO_000300 "19.7"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_000130/dp1> a ns1:SIO_000130 ;
+        ns1:SIO_000001 <http://semanticscience.org/resource/SIO_000130/dp2> .
+
+    <http://semanticscience.org/resource/SIO_001354/nw> a ns1:SIO_001354 .
+
+    <http://semanticscience.org/resource/SIO_001367/cf> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "0.5"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/fr1> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "1.0"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/fr2> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "0.1"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/fr4> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "0.0"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/fr5> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "0.8"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/fr6> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "1.0"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/s1> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "0.5"^^xsd:float .
+
+    <http://semanticscience.org/resource/SIO_001367/s2> a ns1:SIO_001367 ;
+        ns1:SIO_000300 "1.0"^^xsd:float .
+
+    <http://idea.rpi.edu/heals/phkg/ConsistentCarbohydrateIntake/cci> a <http://idea.rpi.edu/heals/phkg/ConsistentCarbohydrateIntake> ;
+        ns1:SIO_000008 <http://purl.obolibrary.org/obo/STATO_0000236/cv> .
+
+    <http://idea.rpi.edu/heals/phkg/LowFat/lf> a <http://idea.rpi.edu/heals/phkg/LowFat> ;
+        ns1:SIO_000300 false .
+
+    <http://semanticscience.org/resource/SIO_000130/dp2> a ns1:SIO_000130 .
+}
+
